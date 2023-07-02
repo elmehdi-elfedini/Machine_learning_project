@@ -1,10 +1,10 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from Strealit_Project.KNN import knn_classifier_page
-from Strealit_Project.Naive_Bayes import naive_bayes_page
-from Strealit_Project.Spam_detection import Spam_detection
-from Strealit_Project.Kmeans import kmeans_page
-from Strealit_Project.RegressionMultiple import regression_Multiple
+from Streamlit_Project.KNN import knn_classifier_page
+from Streamlit_Project.Naive_Bayes import naive_bayes_page
+from Streamlit_Project.Spam_detection import Spam_detection
+from Streamlit_Project.Kmeans import kmeans_page
+from Streamlit_Project.RegressionMultiple import regression_Multiple
 
 
 st.set_page_config(page_icon=":bar_chart", page_title="DataMining",  layout="wide")
