@@ -21,7 +21,7 @@ def knn_classifier_page():
 
     if data:
         #convertir data de csv en  a pandas Dataframe
-        iris_data = pd.read_csv(data)
+        iris_data = pd.read_csv("data/Iris.csv")
         iris_data = iris_data.iloc[:,1:] #iloc[nombre des ligne , nombre des columns]
         expander_data = st.expander("Voir le DataSet")
         expander_data.table(iris_data)
