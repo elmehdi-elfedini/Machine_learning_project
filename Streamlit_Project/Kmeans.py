@@ -27,7 +27,7 @@ def kmeans_page():
     st.header("Mall Customer Segmentation Data")
 
     #Data Collection & Pre-Proccessing
-    data = st.file_uploader("Upload File",type=['csv'])
+    data = pd.read_csv("data/Mall_Customers.csv")
 
     if data:
         #convertir data de csv en  a pandas Dataframe
