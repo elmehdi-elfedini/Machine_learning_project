@@ -28,7 +28,7 @@ def kmeans_page():
 
     #Data Collection & Pre-Proccessing
         #convertir data de csv en  a pandas Dataframe
-    customers_data = pd.read_csv("data/Iris.csv")
+    customers_data = pd.read_csv("data/Mall_Customers.csv")
     X = customers_data.iloc[:,[3,4]].values #ghadi nakhdo les colonnes 3 et 4 
     expander_data = st.expander("Voir le DataSet")
     expander_data.table(customers_data)
