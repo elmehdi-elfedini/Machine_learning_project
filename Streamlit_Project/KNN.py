@@ -17,7 +17,7 @@ def knn_classifier_page():
     st.header("Iris DataSet")
 
     #Data Collection & Pre-Proccessing
-    data = st.file_uploader("Upload File",type=['csv'])
+    data = pd.read_csv("data/Iris.csv")
 
     if data:
         #convertir data de csv en  a pandas Dataframe
