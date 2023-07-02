@@ -16,10 +16,10 @@ def naive_bayes_page():
     st.header("Iris DataSet")
     ######################### fin de la partie dessin ###############
 
-    data = st.file_uploader("Upload File",type=['csv'])
+    data = pd.read_csv("data/Iris.csv")
     if data:
         #loading data from csv to a pandas Dataframe
-        iris_data = pd.read_csv(data)
+        iris_data = pd.read_csv("data/Iris.csv")
         iris_data = iris_data.iloc[:,1:] #iloc[nombre des ligne , nombre des columns]
         expander_data = st.expander("Voir le DataSet")
         expander_data.dataframe(iris_data)
