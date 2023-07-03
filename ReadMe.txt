@@ -3,8 +3,6 @@ Master (Midvi)
 
 Important !!!
 
-A la fin de l'instalation de tous les biblio nécessaire qui se trouve dans le fichier requirement.txt
-a ce stade la ovrire le dossier DATAMINING___PROJET avec vsCode ou bien l'éditeur qui tu travail avec ensuite
-ovrire le terminal et tapez la commande suivant :
+Une fois que vous avez terminé d'installer toutes les bibliothèques nécessaires répertoriées dans le fichier requirement.txt, ouvrez le dossier dans VS Code ou tout autre éditeur avec lequel vous travaillez. Ensuite, ouvrez le terminal et exécutez la commande suivante :
 streamlit run .\index.py
 et voila  l'application sera lancez
